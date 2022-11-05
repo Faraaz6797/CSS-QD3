@@ -1,0 +1,67 @@
+button{
+    background-color:rgb(41, 75, 199);
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border:blue;
+    color: aliceblue;
+}
+
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.a{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: width 2s;
+}
+
+.a:hover{
+    width: 300px;
+}
+
+.t{
+    font-family: 'Kolker Brush', cursive;
+    font-size: 50px;
+}
+
+.c{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circle {
+    0%{
+       background-color:blueviolet;
+    }
+    25%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: red;
+    }
+}
+
+.m{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+   
+}
+
+@media screen and (min-width:300px) and (max-width:1000px) {
+    .m{
+        background-color: aqua;
+        width: 100px;
+        height: 100px;
+    }
+}
